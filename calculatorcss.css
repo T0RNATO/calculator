@@ -1,0 +1,66 @@
+button {
+  border-width: 2px;
+  width: 90px;
+  font-family: 'Baloo 2', cursive;
+  border-style: solid;
+  transition: 0.2s;
+}
+button:hover {
+  color: white;
+}
+button[name="number"] {
+  background-color: lightgreen;
+  height: 90px;
+  border-color: green;
+  font-size: 40px;
+}
+button[name="other"] {
+  background-color: #FFCF9E;
+  height: 90px;
+  border-color: orange;
+  font-size: 40px;
+}
+button[name="misc"] {
+  background-color: #FFCF9E;
+  height: 60px;
+  border-color: orange;
+  font-size: 30px;
+}
+button[name="operation"] {
+  background-color: #D580FF;
+  height: 60px;
+  border-color: #550080;
+  font-size: 40px;
+}
+button[name="extra"] {
+  background-color: #8934a7;
+  height: 60px;
+  border-color: #550080;
+  visibility: hidden;
+  font-size: 30px;
+}
+input {
+  width: 325px;
+  height: 60px;
+  background-color: darkgrey;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 35px;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+table, td, tr {
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0;
+}
+#mini {
+  visibility: hidden;
+}
+#frac {
+  width: 45px;
+  transform: scale(2, 1);
+  margin-left: 22.5px;
+}

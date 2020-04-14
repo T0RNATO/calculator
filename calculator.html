@@ -1,0 +1,164 @@
+<link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+<input id="display" type="text" autocomplete="off" disabled="disabled">
+<table width=360>
+ <tr width=360 height=540>
+  <td width=270>
+    <table height=540 width=270>
+     <tr width=270 height=90>
+      <td>
+      <button name="number" onclick="rty(1)">1</button>
+      </td>
+      <td>
+      <button name="number" onclick="rty(2)">2</button>
+      </td>
+      <td>
+      <button name="number" onclick="rty(3)">3</button>
+      </td>
+     </tr>
+     <tr width=270 height=90>
+      <td>
+      <button name="number" onclick="rty(4)">4</button>
+      </td>
+      <td>
+      <button name="number" onclick="rty(5)">5</button>
+      </td>
+      <td>
+      <button name="number" onclick="rty(6)">6</button>
+      </td>
+     </tr>
+     <tr width=270 height=90>
+      <td>
+      <button name="number" onclick="rty(7)">7</button>
+      </td>
+      <td>
+      <button name="number" onclick="rty(8)">8</button>
+      </td>
+      <td>
+      <button name="number" onclick="rty(9)">9</button>
+      </td>
+     </tr>
+     <tr width=270 height=90>
+      <td>
+      <button name="other" onclick="remove(0)">C</button>
+      </td>
+      <td>
+      <button name="number" onclick="rty(0)">0</button>
+      </td>
+      <td>
+      <button name="other" onclick="go()">=</button>
+      </td>
+     </tr>
+     <tr width=270 height=60>
+      <td>
+      <button name="misc" onclick="remove(1)">&#9003;</button>
+      </td>
+      <td>
+      <button name="misc" onclick="m(1)">M1</button>
+      </td>
+      <td>
+      <button name="misc" onclick="m(2)">M2</button>
+      </td>
+     </tr>
+     <tr width=270 height=60>
+      <td>
+      <button name="misc" onclick="percent()">%</button>
+      </td>
+      <td>
+      <button name="misc" onclick="mp()">-/+</button>
+      </td>
+      <td>
+      <button name="misc" onclick="roundnum()">Rnd</button>
+      </td>
+     </tr>
+     <tr width=270 height=60>
+      <td>
+      <button name="misc" onclick="rty('&#960;')">&#960;</button>
+      </td>
+      <td>
+      <button name="misc" onclick="frac()" id="frac">&#7521;/&#7527;</button>
+      </td>
+      <td>
+      <button name="misc">?</button>
+      </td>
+     </tr>
+    </table>
+  </td>
+  <td width=90>
+   <table height=540 width=180>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="operation('plus')">+</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="extra('cos')">cos</button>
+     </td>
+    </tr>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="operation('minus')">-</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="extra('sin')">sin</button>
+     </td>
+    </tr>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="operation('times')">×</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="extra('tan')">tan</button>
+     </td>
+    </tr>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="operation('divide')">÷</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="extra('acos')">cos&#x207B;&#xB9;</button>
+     </td>
+    </tr>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="operation('root')">&#8319;&#x221a;</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="extra('asin')">sin&#x207B;&#xB9;</button>
+     </td>
+    </tr>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="operation('power')">^</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="extra('atan')">tan&#x207B;&#xB9;</button>
+     </td>
+    </tr>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="factorial()">!</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="extra('log')">log</button>
+     </td>
+    </tr>
+    <tr width=90 height=60>
+     <td width=90>
+     <button name="operation" onclick="decimal()">.</button>
+     </td>
+     <td width=90>
+     <button name="extra" onclick="operation('modulo')">mod</button>
+     </td>
+     </tr>
+     <tr width=90 height=60>
+     <td width=90>
+     <button name="misc" onclick="appear(1)" id="expand">&gt;</button>
+     </td>
+     <td width=90>
+     <button name="misc" onclick="appear(2)" id="mini">&lt;</button>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
